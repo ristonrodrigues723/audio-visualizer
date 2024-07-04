@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Audio Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced Audio Visualizer</h1>
+        <input type="file" id="audioInput" accept="audio/*">
+        <audio id="audio" controls></audio>
+        <div class="controls">
+            <select id="visualMode">
+                <option value="bars">Bars</option>
+                <option value="wave">Wave</option>
+                <option value="circular">Circular</option>
+            </select>
+            <input type="color" id="colorPicker" value="#ff0000">
+        </div>
+        <canvas id="visualizer"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

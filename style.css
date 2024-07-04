@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+canvas {
+    background-color: #000;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+select, input[type="color"] {
+    margin: 0 10px;
+}
